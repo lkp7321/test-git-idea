@@ -4,4 +4,9 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("test");
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
